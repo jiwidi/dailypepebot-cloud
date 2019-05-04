@@ -16,7 +16,7 @@ Fully serverless implementation with cloud functions on gcloud. The bot retrieve
 
 First, deploy the bot to g-cloud functions
 ```
-$ gcloud beta functions deploy webhook --set-env-vars "TELEGRAM_TOKEN=000:yyy" --runtime python37 --trigger-http
+$ gcloud beta functions deploy webhook --set-env-vars "TELEGRAM_TOKEN=000:yyy" --runtime python37 --trigger-http --region europe-west2
 ```
 
 This will return an output like:
