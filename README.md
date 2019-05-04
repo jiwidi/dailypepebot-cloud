@@ -1,4 +1,5 @@
 # Pepebot
+[![Join Daily Qwertee on Telegram](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/dailypepebot)
 > Telegram bot that gives you random pepes under the command `/randompepe/`
 
 A basic serverless [Telegram bot](https://core.telegram.org/bots) using [Google Cloud Functions](https://cloud.google.com/functions/).
