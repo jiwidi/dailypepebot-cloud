@@ -16,6 +16,9 @@ Fully serverless implementation with cloud functions on gcloud. The bot retrieve
 ```
 $ gcloud beta functions deploy webhook --set-env-vars "TELEGRAM_TOKEN=000:yyy" --runtime python37 --trigger-http
 ```
+## TODOs
+* The user should be able to set up a frequency to automatically recieve randompepes without the need to use /randomepep.
+* Allow submitting pepes for later review and appending them to the master database.
 
 ## Release History
 
